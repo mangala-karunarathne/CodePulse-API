@@ -7,7 +7,7 @@ namespace CodePulse.API.Data
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
-
+            // test comment
         }
 
         public DbSet<BlogPost> BlogPosts { get; set; }
